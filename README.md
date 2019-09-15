@@ -42,8 +42,12 @@ Analysis of Reviews:
 - Can we explore some of the worst reviews for additional insights?
 
 
-Price Prediction
-Can we predict he price of the listing based on property type, neighbourhood, and availabilty?
+Influence of parameters on availability:
+
+- Cancellation policy
+- Room type
+- Number of guests
+- Guests picture
 
 
 ## File Descriptions <a name="files"></a>
@@ -58,16 +62,17 @@ Vancouver folder contains five files
 
 ## Summary Of Conclusions<a name="results"></a>
 
-The following key findings from the analysis are summarized below:
+Key findings from the analysis are summarized below:
 
-1. It was found that the peak season in Seattle is during the summer months from June to August, with the absolute peak being in July. 
-2. The "Southeast Magnolia" neighborhood was the priciest neighborhood in Seattle, followed by Portage Bay. Rainier Beach was the cheapest.
-3. Looking further at neighborhoods and property types, I found out that houses in Portage Bay are the most expensive followed by houses in West Queen Anne and Westlake. 
-4. With the help of SentimentIntensityAnalyzer, I was able to map the reviews to their respective sentiments of positive, negative or neutral. I found out that 97.2% of reviews were mostly positive, with 1% negative reviews and 1.8% of reviews that were neutral.
-5. By exploring review sentiments by neighborhoods, I found out that Roxhill, Cedar Park and Pinehurst were the neighborhoods with the most positive reviews, while University District, Holly Park and View Ridge ranked lower.
-6. By exploring the worst reviews, I found out that SentimentIntensityAnalyzer associate non-English reviews with negative sentiments. 
-7. Using LinearRegression, I was able to predict price based on a prepped and cleaned dataset, with an r2score of 0.62 on both training and test datasets.
-8. It was found that the features that had the most impact on price were a combination of host details as well as descriptive information about the listing.
+1. It was found that approximately 70% of the hosts in metro vancouver respond with in an hour. 
+2. Approximately 35% of the properties listed on Vancouver Air bnb are houses and 26% are apartments.
+3. Listing price is higher for the number of reviews between 200-300, as the number of reviews increases, price drops, which suggests that more customer tend to review places which are economical, however places with 200-300 tend to have higher listing price. 
+
+4. Downtown, Kistilano are the most expensive neighbourhoods, whereas Killarnay is the cheapest.
+5. We didnt see any storng relationship with the occupancy rate and the review scores.
+6. We also found that Kistilano and Downtown east neighbourhoods receivee the most positive reviews. 
+7. We also found that there is a storng relationship between property type, room type, number of guests with the occupancy rate.
+
 
 ## Acknowledgements<a name="acknowledgements"></a>
 
