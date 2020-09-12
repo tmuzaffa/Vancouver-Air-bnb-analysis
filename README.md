@@ -68,10 +68,10 @@ Key findings from the analysis are summarized below:
 2. Approximately 35% of the properties listed on Vancouver Air bnb are houses and 26% are apartments.
 3. Listing price is higher for the number of reviews between 200-300, as the number of reviews increases, price drops, which suggests that more customer tend to review places which are economical, however places with 200-300 tend to have higher listing price. 
 
-4. Downtown, Kistilano are the most expensive neighbourhoods, whereas Killarnay is the cheapest.
+4. Downtown,  and Kistilano are the most expensive neighbourhoods, whereas Killarnay is the cheapest.
 5. We didnt see any storng relationship with the occupancy rate and the review scores.
 6. We also found that Kistilano and Downtown east neighbourhoods receivee the most positive reviews. 
-7. We also found that there is a storng relationship between property type, room type, number of guests with the occupancy rate.
+7. We also found that there is a storng relationship between property type, room type, and number of guests with the occupancy rate.
 
 
 ## Acknowledgements<a name="acknowledgements"></a>
