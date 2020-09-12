@@ -1,4 +1,4 @@
-# Vancouver Air bnb analysis Udacity project 1
+# Vancouver Air bnb analysis
  
 # Analysis of Vancouver Air Bnb market
 
